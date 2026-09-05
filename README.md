@@ -1,0 +1,3 @@
+# Onboarding Project for the BUMRC Electrical Team
+
+Lorem...
