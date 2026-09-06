@@ -16,7 +16,8 @@ We will also provide for you general components such as capacitors, resistors, d
 
 You can solder either in the Mars Rover Club Lab, in SiLab (need safety training), or at RASTIC (unless you know of another place, feel free to go elsewhere).
 
-&nbsp;&nbsp;*If you don't know how to solder, we can organize a workshop for that.*
+<!-- 8 space tab -->
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *If you don't know how to solder, we can organize a workshop for that.*
 
 ## Boost Step-Up Converter Constraints:
 
@@ -36,7 +37,7 @@ For testing, we will supply a 5V input source and use your boost output to drive
 4. Hands-on soldering experience with through-hole components
 5. How to document your work and explain it in a design review
 
-# Your Job:
+## Your Job:
 
 ### Planning and Calculations
 1. Create a KiCad project based on the club KiCad template
