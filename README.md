@@ -8,26 +8,27 @@ The project will include soldering, git, and KiCad schematic design. If you've n
 
 A boost-converter is a switching regulator that **steps up a lower voltage at a higher current to a higher voltage at a lower current**, usually at a specific efficiency (near 80%).
 
-Here's a good [video](https://www.youtube.com/watch?v=9QM55r5fnUk) explaining how they work.
+> Here's a good [video](https://www.youtube.com/watch?v=9QM55r5fnUk) explaining how they work.
 
-In this project, we will be using the ```MC34063AP``` IC from *Texas Instruments*, find its datasheet [here](datasheets/mc34063a.pdf).
+<br>
+
+In this project, we will be using the `MC34063AP` IC from *Texas Instruments*, find its datasheet [here](datasheets/mc34063a.pdf).
 
 We will also provide for you general components such as capacitors, resistors, diodes, inductors, perfboard, etc.
 
 You can solder either in the Mars Rover Club Lab, in SiLab (need safety training), or at RASTIC (unless you know of another place, feel free to go elsewhere).
 
-<!-- 8 space tab -->
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *If you don't know how to solder, we can organize a workshop for that.*
+> *If you don't know how to solder, we can organize a workshop for that.*
 
 ## Boost Step-Up Converter Constraints:
 
-1. Voltage Input, ```VIN=5V```
-2. Voltage Output, ```VOUT=12V```
-3. Max Output Current, ```IOUT=???```
-4. Minimum Switching Frequency, ```fMin=???```
-5. Desired Peak-to-Peak output ripple voltage, ```VRipple=???```
+1. Voltage Input, `VIN=5V`
+2. Voltage Output, `VOUT=12V`
+3. Max Output Current, `IOUT=???`
+4. Minimum Switching Frequency, `fMin=???`
+5. Desired Peak-to-Peak output ripple voltage, `VRipple=???`
 
-For testing, we will supply a 5V input source and use your boost output to drive a 12V fan.
+> For testing, we will supply a 5V input source and use your boost output to drive a 12V fan.
 
 ## Learning Goals:
 
