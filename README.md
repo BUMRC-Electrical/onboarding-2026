@@ -18,11 +18,19 @@ You can solder either in the Mars Rover Club Lab, in SiLab (need safety training
 
 ## Boost Step-Up Converter Constraints:
 
-1. Voltage Input, `VIN=5V`
-2. Voltage Output, `VOUT=12V`
-3. Max Output Current, `IOUT=???`
-4. Minimum Switching Frequency, `fMin=???`
-5. Desired Peak-to-Peak output ripple voltage, `VRipple=???`
+| Full Name                          | Datasheet Name | Value  |
+| ---------------------------------- | -------        | ------ |
+| Voltage Input                      | VIN            | 5V     |
+| Voltage Output                     | VOUT    | 12V    |
+| Max Output Current                 | IOUT    | ???mA  |
+| Minimum Switching Frequency        | fMin    | ???kHz |
+| Peak-to-Peak Output Ripple Voltage | VRipple | ???mV  |
+
+- Voltage Input, `VIN=5V`
+- Voltage Output, `VOUT=12V`
+- Max Output Current, `IOUT=???`
+- Minimum Switching Frequency, `fMin=???`
+- Desired Peak-to-Peak output ripple voltage, `VRipple=???`
 
 > For testing, we will supply a 5V input source and use your boost output to drive a 12V fan.
 
