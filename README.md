@@ -4,21 +4,17 @@ For new members or returning members who wish to participate, there will be a bo
 
 The project will include soldering, git, and KiCad schematic design. If you've never done either, that is okay.
 
-<br>
-
 A boost-converter is a switching regulator that **steps up a lower voltage at a higher current to a higher voltage at a lower current**, usually at a specific efficiency (near 80%).
 
 > Here's a good [video](https://www.youtube.com/watch?v=9QM55r5fnUk) explaining how they work.
 
-<br>
-
-In this project, we will be using the `MC34063AP` IC from *Texas Instruments*, find its datasheet [here](datasheets/mc34063a.pdf).
+In this project, we will be using the `MC34063AP` IC from Texas Instruments, find its datasheet [here](datasheets/mc34063a.pdf).
 
 We will also provide for you general components such as capacitors, resistors, diodes, inductors, perfboard, etc.
 
 You can solder either in the Mars Rover Club Lab, in SiLab (need safety training), or at RASTIC (unless you know of another place, feel free to go elsewhere).
 
-> *If you don't know how to solder, we can organize a workshop for that.*
+> If you don't know how to solder, we can organize a workshop for that.
 
 ## Boost Step-Up Converter Constraints:
 
@@ -54,6 +50,11 @@ You can solder either in the Mars Rover Club Lab, in SiLab (need safety training
 ### Hands-On Technical Experience
 7. Create the boost converter on a perfboard and solder it by hand
 8. Test your board, diagnose any issues, and come up with a concluision
+
+## How to Start?
+
+1. Head over to the [kicad-template](https://github.com/BUMRC-Electrical/kicad-template) and follow the instructions there for how to create your own copy of the template project.
+2. 
 
 ## Useful Resources
 
