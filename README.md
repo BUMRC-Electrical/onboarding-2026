@@ -31,8 +31,8 @@ You can solder either in the Mars Rover Club Lab, in SiLab (need safety training
 | Voltage Input                      | V<sub>IN</sub>     | 12V    |
 | Voltage Output                     | V<sub>OUT</sub>    | 24V    |
 | Max Output Current                 | I<sub>OUT</sub>    | 250mA  |
-| Minimum Switching Frequency        | f<sub>Min</sub>    | ???kHz |
-| Peak-to-Peak Output Ripple Voltage | V<sub>Ripple</sub> | ???mV  |
+| Minimum Switching Frequency        | f<sub>Min</sub>    | ~30kHz |
+| Peak-to-Peak Output Ripple Voltage | V<sub>Ripple</sub> | 1-2% (240-480mV)  |
 
 > We will do a test with a multimeter for voltage accuracy.
 > And perform a load test with a 24V fan.
