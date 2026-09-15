@@ -2,7 +2,7 @@
 
 For new members or returning members who wish to participate, there will be a boost-converter project for onboarding.
 
-The project will include soldering, git, and KiCad schematic design. If you've never done either, that is okay.
+The project will include soldering (Through-Hole), Git, and KiCad schematic design. If you've never done either, that's okay.
 
 A boost-converter is a switching regulator that **steps up a lower voltage at a higher current to a higher voltage at a lower current**, usually at a specific efficiency (near 80%).
 
@@ -16,18 +16,6 @@ You can solder either in the Mars Rover Club Lab, in SiLab (need safety training
 
 > If you don't know how to solder, we can organize a workshop for that.
 
-## Boost Step-Up Converter Constraints:
-
-| Full Name                          | Datasheet Name     | Value  |
-| ---------------------------------- | ------------------ | ------ |
-| Voltage Input                      | V<sub>IN</sub>     | 5V     |
-| Voltage Output                     | V<sub>OUT</sub>    | 12V    |
-| Max Output Current                 | I<sub>OUT</sub>    | ???mA  |
-| Minimum Switching Frequency        | f<sub>Min</sub>    | ???kHz |
-| Peak-to-Peak Output Ripple Voltage | V<sub>Ripple</sub> | ???mV  |
-
-> For testing, we will supply a 5V input source and use your boost output to drive a 12V fan.
-
 ## Learning Goals:
 
 1. Using the club's Git template correctly
@@ -35,6 +23,19 @@ You can solder either in the Mars Rover Club Lab, in SiLab (need safety training
 3. How to refer to a datasheet and choose component values
 4. Hands-on soldering experience with through-hole components
 5. How to document your work and explain it in a design review
+
+## Boost Step-Up Converter Constraints:
+
+| Full Name                          | Datasheet Name     | Value  |
+| ---------------------------------- | ------------------ | ------ |
+| Voltage Input                      | V<sub>IN</sub>     | 12V    |
+| Voltage Output                     | V<sub>OUT</sub>    | 24V    |
+| Max Output Current                 | I<sub>OUT</sub>    | 250mA  |
+| Minimum Switching Frequency        | f<sub>Min</sub>    | ???kHz |
+| Peak-to-Peak Output Ripple Voltage | V<sub>Ripple</sub> | ???mV  |
+
+> We will do a test with a multimeter for voltage accuracy.
+> And perform a load test with a 24V fan.
 
 ## Your Job:
 
@@ -56,7 +57,8 @@ You can solder either in the Mars Rover Club Lab, in SiLab (need safety training
 ## How to Start?
 
 1. Head over to the [kicad-template](https://github.com/BUMRC-Electrical/kicad-template) and follow the instructions there for how to create your own copy of the template project.
-2. 
+2. Read the datasheet for the `MC34063AP` IC, find it [here](https://www.ti.com/lit/ds/symlink/mc34063a.pdf?ts=1789370199936&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct-category%252Fpower-management%252Fdc-dc-switching-regulators%252Fdc-dc-controllers%252Fproducts.html)
+3. Be active in the Discord, and ask your fellow electrical team members or myself for assistance!
 
 ## Useful Resources
 
